@@ -23,7 +23,7 @@ import (
 
 var (
 	allowLan    = false
-	bindAddress = "*"
+	bindAddress = "0.0.0.0"
 
 	tcpListeners = map[C.Inbound]C.Listener{}
 	udpListeners = map[C.Inbound]C.Listener{}
