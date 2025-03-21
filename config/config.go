@@ -40,9 +40,9 @@ type General struct {
 
 // Controller
 type Controller struct {
-	ExternalController string `json:"-"`
-	ExternalUI         string `json:"-"`
-	Secret             string `json:"-"`
+	ExternalController string `json:"external-controller"`
+	ExternalUI         string `json:"external-ui"`
+	Secret             string `json:"secret"`
 }
 
 type LegacyInbound struct {
